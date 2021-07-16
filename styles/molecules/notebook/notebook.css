@@ -1,0 +1,48 @@
+.notebook {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-top: 1px solid grey;
+  min-width: 250px;
+  padding: 0;
+  margin: 0;
+  -webkit-box-shadow: 2px 3px 3px lightgrey;
+          box-shadow: 2px 3px 3px lightgrey;
+}
+
+.notebook__section {
+  height: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 90%;
+      grid-template-columns: 10% 90%;
+  border: 1px solid grey;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 250px;
+}
+
+.notebook__section #to-do-item {
+  width: 80%;
+  height: 60%;
+}
+
+.notebook__section #to-do-item__input {
+  margin: 1px;
+  width: 98%;
+  height: 100%;
+  font-size: 25px;
+}
+
+.notebook__section #to-do-item:checked ~ label input {
+  text-decoration: line-through;
+  color: grey;
+}
+/*# sourceMappingURL=notebook.css.map */

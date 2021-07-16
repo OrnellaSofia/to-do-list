@@ -1,0 +1,24 @@
+body {
+  background-color: #CEF5F8;
+}
+
+body#dark {
+  background-color: #0A043C;
+}
+
+main {
+  background: white;
+  height: auto;
+  width: 90%;
+  margin: auto;
+  min-width: 250px;
+}
+
+.to-buy-notebook {
+  display: none;
+}
+
+.work-notebook {
+  display: none;
+}
+/*# sourceMappingURL=organisms.css.map */

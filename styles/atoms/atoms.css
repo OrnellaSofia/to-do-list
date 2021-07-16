@@ -1,0 +1,114 @@
+* {
+  margin: none;
+  border: none;
+  padding: none;
+  font-family: "Roboto", sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+.menu {
+  -webkit-box-shadow: 0px 8px 16px 0px lightgray;
+          box-shadow: 0px 8px 16px 0px lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 0px;
+  opacity: 0;
+  display: none;
+  margin: 0;
+  text-align: center;
+}
+
+.menu button {
+  background-color: transparent;
+  border: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  height: auto;
+  padding: 5px;
+  text-shadow: 1px 1px grey;
+}
+
+@media only screen and (min-width: 600px) {
+  .menu {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    display: block;
+    float: right;
+    padding-top: 10px;
+    margin-right: 4%;
+    opacity: 1;
+    position: relative;
+  }
+  .menu button {
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 2px 2px lightgray;
+            box-shadow: 1px 2px 2px lightgray;
+    cursor: pointer;
+    color: #99D16C;
+    margin-right: 15px;
+    padding: none;
+    font-weight: 500;
+  }
+  .menu button#dark {
+    background-color: #5b577d;
+    -webkit-box-shadow: 1px 2px 2px grey;
+            box-shadow: 1px 2px 2px grey;
+    color: #FFE3D8;
+  }
+  .menu button:active {
+    background-color: lightgrey;
+  }
+  .fa-caret-down {
+    display: none;
+  }
+  header {
+    height: 50px;
+  }
+}
+
+.fa-caret-down {
+  color: #99D16C;
+  font-size: 35px;
+  position: absolute;
+  margin-left: 35%;
+}
+
+.fa-caret-down :focus {
+  font-size: 20px;
+}
+
+.fa-caret-down#dark {
+  color: #FFE3D8;
+}
+
+h1 {
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  color: #99D16C;
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0px 0px auto;
+}
+
+h1#dark {
+  color: #5b577d;
+}
+
+header {
+  text-align: center;
+}
+/*# sourceMappingURL=atoms.css.map */

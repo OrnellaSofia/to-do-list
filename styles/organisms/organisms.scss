@@ -1,0 +1,24 @@
+@import '../variables/variables.scss';
+
+body{
+    background-color: $background-color;
+    &#dark{
+        background-color: $dark-background;
+    }
+}
+
+main{
+    background: white;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    min-width: 250px;
+}
+
+.to-buy-notebook{
+    display: none;
+}
+
+.work-notebook{
+    display: none;
+}

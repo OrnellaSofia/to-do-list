@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/exports.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link id="darktheme" href="default.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <title>To-Do App</title>
+</head>
+<body>
+    <header>
+        <input id="dropdown" type="checkbox">
+        <label for="dropdown" class="toggle"><i class="fas fa-caret-down"></i></label>
+        <label class="switch">
+            <input type="checkbox" id="theme-switcher" onclick="changeTheme()">
+            <span class="slider round"></span>
+        </label>
+        <div class="menu">
+            <button class="menu-to-do" onclick="toggleNotebooks('menu-to-do')">To-Do</button>
+            <button class="menu-to-buy" onclick="toggleNotebooks('menu-to-buy')">To-Buy</button>
+            <button class="menu-work" onclick="toggleNotebooks('menu-work')">Work</button>
+        </div>
+    </header>
+    <main>
+        <div class="to-do-notebook">
+        <h1 class="to-do-title">To-Do</h1>
+        <ul class="notebook">
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+        </ul>
+    </div>
+    <div class="to-buy-notebook">
+        <h1 class="to-buy-title">To-Buy</h1>
+        <ul class="notebook">
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+        </ul>
+    </div>
+    <div class="work-notebook">
+        <h1 class="work-title">Work</h1>
+        <ul class="notebook">
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+            <li class="notebook__section">
+                <input id="to-do-item" type="checkbox">
+                <label for="to-do-item">
+                    <input type="text" id="to-do-item__input" placeholder="Enter a task">
+                </label>
+            </li>
+        </ul>
+    </div>
+    </main>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

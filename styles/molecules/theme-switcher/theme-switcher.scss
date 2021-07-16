@@ -1,0 +1,48 @@
+@import '../../variables/variables.scss';
+
+.switch {
+    position: absolute;
+    display: inline-block;
+    left: 10%;
+    top: 2%;
+    width: 60px;
+    height: 32px;
+    & input{
+        opacity: 0;
+    }
+    & .slider{
+        background-color: #ccc;
+        bottom: 0;
+        cursor: pointer;
+        left: 0;
+        right: 0;
+        top: 0;
+        transition: .4s;
+        position: absolute;
+        &:before{
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+        }
+    }
+  }
+
+input:checked + .slider {
+   background-color: $dark-theme;
+   &:before{
+       transform: translate(26px)
+   }
+}
+
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
